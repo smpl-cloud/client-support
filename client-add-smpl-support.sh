@@ -3,7 +3,7 @@
 #           Support users.
 # -----------------------------------------------------------------------------
 #  PREREQS: a) Client must have permissions to assign roles to users.
-#           b)
+#           b) Client must have gcloud sdk installed
 #           c)
 # -----------------------------------------------------------------------------
 #  EXECUTE:     ./client-add-smpl-support.sh
