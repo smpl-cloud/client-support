@@ -35,7 +35,7 @@ myOrgID=$(gcloud organizations list --format='value(ID)')
 declare smplUsers=("thomas@${domaiName}" "taylorsmith@${domaiName}")
 
 # REF: https://cloud.google.com/iam/docs/understanding-roles
-declare gcpRoles=('viewer' 'billing.viewer' 'resourcemanager.projectCreator' \
+declare gcpRoles=('viewer' 'billing.user' 'resourcemanager.projectCreator' \
     'compute.instanceAdmin.v1' 'compute.networkAdmin' 'container.admin' \
     'storage.admin' 'dns.admin' 'iam.serviceAccountKeyAdmin' \
     'iam.serviceAccountTokenCreator' 'iam.serviceAccountUser')
