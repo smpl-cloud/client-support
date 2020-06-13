@@ -38,7 +38,7 @@ declare smplUsers=("thomas@${domaiName}" "taylorsmith@${domaiName}")
 declare gcpRoles=('viewer' 'billing.user' 'resourcemanager.projectCreator' \
     'compute.instanceAdmin.v1' 'compute.networkAdmin' 'container.admin' \
     'storage.admin' 'dns.admin' 'iam.serviceAccountKeyAdmin' \
-    'iam.serviceAccountTokenCreator' 'iam.serviceAccountUser')
+    'iam.serviceAccountTokenCreator' 'iam.serviceAccountCreator')
 
 # REF: https://cloud.google.com/sdk/gcloud/reference/services/list
 declare projAPIs=('cloudresourcemanager' 'cloudbilling' 'iam' 'compute' \
